@@ -31,7 +31,7 @@
 }
 @media screen and (max-width: 425px) {
   body {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   h1 {
     font-size: 2.3em;
@@ -41,6 +41,9 @@
   }
   h4 {
     font-size: .9em;
+  }
+  a {
+    font-size: 14px;
   }
 }
 
@@ -61,7 +64,7 @@
 .navLink > a:hover{
   text-decoration: none;
   padding-bottom: 2px;
-  border-bottom: 3px solid #eee;
+  border-bottom: 2px solid #eee;
 }
 .section-content {
   text-align: center;
