@@ -73,7 +73,7 @@
 .headerText{
   height: 100vh;
   color: white;
-  background-image: url("pics/Ocean.jpg");
+  background-image: url("../pics/Ocean.jpg");
   background-size: cover;
   background-position: center;
 }
