@@ -89,12 +89,10 @@
   background-color: rgb(223, 167, 0);
   padding: 5vh;
 }
-.viewWork {
-  margin-top: 15px;
-  padding: 8px;
+.tagLine {
+  padding-top: 6px;
   color: #ddd;
-  border: solid #ddd;
 }
-.viewWork:hover {
+.tagLine:hover {
   color: #eee;
 }
