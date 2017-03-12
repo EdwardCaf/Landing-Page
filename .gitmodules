@@ -1,9 +1,3 @@
-[submodule "projects/portfolio"]
-	path = projects/portfolio
-	url = https://github.com/EdwardCaf/Portfolio.git
-[submodule "projects/resume"]
-	path = projects/resume
-	url = https://github.com/EdwardCaf/frontend-nanodegree-resume.git
 [submodule "work/portfolio"]
 	path = work/portfolio
 	url = https://github.com/EdwardCaf/Portfolio.git
