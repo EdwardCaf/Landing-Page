@@ -59,12 +59,12 @@
   padding: 5vh;
 }
 .navLink > a {
-    color: #eee;
+    color: #ddd;
 }
 .navLink > a:hover{
   text-decoration: none;
   padding-bottom: 2px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #ddd;
 }
 .section-content {
   text-align: center;
@@ -72,13 +72,13 @@
 }
 .headerText{
   height: 100vh;
-  color: white;
-  background-image: url("../pics/Ocean.jpg");
+  color: #ddd;
+  background-image: url("../pics/NightSky.jpg");
   background-size: cover;
   background-position: center;
 }
 .header{
-  top: 35%;
+  top: 30%;
   text-align: center;
 }
 .box1 {
@@ -92,8 +92,8 @@
 .viewWork {
   margin-top: 15px;
   padding: 8px;
-  color: #fff;
-  border: solid #fff;
+  color: #ddd;
+  border: solid #ddd;
 }
 .viewWork:hover {
   color: #eee;
