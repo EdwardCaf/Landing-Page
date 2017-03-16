@@ -70,16 +70,20 @@
   text-align: center;
   width: 100%;
 }
-.headerText{
+.headerContainer{
+  position: relative;
   height: 100vh;
   color: #ddd;
   background-image: url("../pics/NightSky.jpg");
   background-size: cover;
   background-position: center;
 }
-.header{
-  top: 23%;
-  text-align: center;
+.headerName{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .box1 {
   background-color: lightblue;
