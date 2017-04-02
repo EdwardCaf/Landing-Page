@@ -47,7 +47,6 @@
   }
 }
 
-
 .mynavbar {
   margin: 0;
   padding: 0;
@@ -81,7 +80,7 @@
 .headerName{
   position: absolute;
   width: 100%;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -99,4 +98,11 @@
 }
 .tagLine:hover {
   color: #eee;
+}
+.form-style {
+  padding-top: 10px;
+}
+.form-submit{
+  float: left;
+  padding-left: 15px;
 }
