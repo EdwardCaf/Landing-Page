@@ -4,3 +4,6 @@
 [submodule "work/resume"]
 	path = work/resume
 	url = https://github.com/EdwardCaf/frontend-nanodegree-resume.git
+[submodule "work/color"]
+	path = work/color
+	url = https://github.com/EdwardCaf/Color-Generator.git

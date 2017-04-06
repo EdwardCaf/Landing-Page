@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -15,6 +16,43 @@
   </head>
 
   <body>
+
+
+
+    <div class="headerContainer section-content">
+      <nav class="col-sm-12 mynavbar">
+          <li class="navLink"><a href="https://github.com/EdwardCaf"><i class="fa fa-github" aria-hidden="true"></i> Github</a></li>
+          <li class="navLink"><a href=""><i class="fa fa-briefcase" aria-hidden="true"></i> Work</a></li>
+          <li class="navLink"><a href="#myModal" role="button" data-toggle="modal"> <i class="fa fa-user" aria-hidden="true"></i> Contact</a></li>
+      </nav>
+      <div class="headerName">
+        <h1>Edward Cafarella</h1>
+        <h4 class="tagLine">Front-End Developer</h4>
+      </div>
+    </div>
+    <div class="container">
+      <div class="section-content">
+        <h1 class="project-header">Projects</h1>
+        <hr>
+        <div class="col-sm-4 box">
+          <img class="project-icon" src="pics/Document.svg" alt="Document icon">
+          <h2>Interactive Resume</h2>
+          <h4><a href="work/resume/index.html">Link</a></h4>
+        </div>
+        <div class="col-sm-4 box">
+          <img class="project-icon" src="pics/webpage.svg" alt="Web page icon">
+          <h2>Portfolio Site</h2>
+          <h4><a href="work/portfolio/index.html">Link</a></h4>
+        </div>
+        <div class="col-sm-4 box">
+          <img class="project-icon" src="pics/paint.svg" alt="Color wheel icon">
+          <h2>Color Generator</h2>
+          <h4><a href="work/color/index.html">Link</a></h4>
+        </div>
+      </div>
+    </div>
+
+
 
     <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -41,9 +79,6 @@
                 <label>Twitter: </label>
                 <span>@edcaf24</span>
               </div>
-              <div class="form-group col-sm-12 text-center">
-                <span>Email me for further inquiries.</span>
-              </div>
             </form>
           </div>
           <div class="modal-footer">
@@ -53,31 +88,13 @@
       </div>
     </div>
 
-    <div class="headerContainer section-content">
-      <nav class="col-sm-12 mynavbar">
-          <li class="navLink"><a href="https://github.com/EdwardCaf"><i class="fa fa-github" aria-hidden="true"></i> Github</a></li>
-          <li class="navLink"><a href=""><i class="fa fa-briefcase" aria-hidden="true"></i> Work</a></li>
-          <li class="navLink"><a href="#myModal" role="button" data-toggle="modal"> <i class="fa fa-user" aria-hidden="true"></i> Contact</a></li>
-      </nav>
-      <div class="headerName">
-        <h1>Edward Cafarella</h1>
-        <h4 class="tagLine">Front-End Developer</h4>
-      </div>
-    </div>
-
-    <div class="section-content">
-      <div class="col-sm-12 box1">
-        <h2>Interactive Resume</h2>
-        <h4><a href="work/resume/index.html">Link</a></h4>
-      </div>
-    </div>
-
-    <div class="section-content">
-      <div class="col-sm-12 box2">
-        <h2>Portfolio Site</h2>
-        <h4><a href="work/portfolio/index.html">Link</a></h4>
-      </div>
-    </div>
-
   </body>
+
+  <footer>
+    <div class="credits-container">
+      <div class="credits">Icons made by <a href="http://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      <div class="credits">Icons made by <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      <div class="credits">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    </div>
+  </footer>
 </html>
