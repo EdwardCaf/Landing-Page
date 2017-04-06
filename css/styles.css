@@ -27,7 +27,11 @@ hr {
     font-size: .8em;
   }
   .navlink {
-    padding: 7vh;
+    padding: 4vh;
+  }
+  .project-icon {
+    width: 3em;
+    padding: 5px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -43,6 +47,10 @@ hr {
   h4 {
     font-size: .8em;
   }
+  .project-icon {
+    width: 4em;
+    padding: 0;
+  }
 }
 @media screen and (max-width: 425px) {
   body {
@@ -52,13 +60,17 @@ hr {
     font-size: 3em;
   }
   h2 {
-    font-size: 1.7em;
+    font-size: 2em;
   }
   h4 {
-    font-size: 1.4em;
+    font-size: 1.7em;
   }
   a {
     font-size: 14px;
+  }
+  .project-icon {
+    width: 7em;
+    padding: 0;
   }
 }
 .mynavbar {
@@ -69,7 +81,7 @@ hr {
 }
 .navLink {
   display: inline-block;
-  padding: 5vh;
+  padding: 4vh;
 }
 .navLink > a {
     color: #ddd;
@@ -99,10 +111,6 @@ hr {
 }
 .project-header {
   padding: 14px 0 14px 0;
-}
-.project-icon {
-  width: 4em;
-  padding: 5px;
 }
 .box {
   background-color: #ddd;
