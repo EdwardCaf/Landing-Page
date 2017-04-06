@@ -30,7 +30,7 @@ hr {
     padding: 4vh;
   }
   .project-icon {
-    width: 3em;
+    width: 4em;
     padding: 5px;
   }
 }
@@ -49,7 +49,6 @@ hr {
   }
   .project-icon {
     width: 4em;
-    padding: 0;
   }
 }
 @media screen and (max-width: 425px) {
@@ -70,7 +69,6 @@ hr {
   }
   .project-icon {
     width: 7em;
-    padding: 0;
   }
 }
 .mynavbar {
@@ -81,7 +79,7 @@ hr {
 }
 .navLink {
   display: inline-block;
-  padding: 4vh;
+  padding: 3vh;
 }
 .navLink > a {
     color: #ddd;
@@ -137,5 +135,8 @@ hr {
   text-align: center;
   padding: 4px 2px 2px 2px;
   background-color: #ccc;
+  font-size: 10px;
+}
+.credits a {
   font-size: 10px;
 }
