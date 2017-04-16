@@ -125,9 +125,12 @@ hr {
 .form-style {
   padding-top: 10px;
 }
-.form-submit{
+.form-submit {
   float: left;
   padding-left: 15px;
+}
+.label-color{
+  color: #44b;
 }
 .credits-container {
   margin-top: 10px;
