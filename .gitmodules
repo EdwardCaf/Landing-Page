@@ -7,3 +7,9 @@
 [submodule "work/color"]
 	path = work/color
 	url = https://github.com/EdwardCaf/Color-Generator.git
+[submodule "work/arcade/Arcade-Game"]
+	path = work/arcade/Arcade-Game
+	url = https://github.com/EdwardCaf/Arcade-Game.git
+[submodule "work/Arcade-Game"]
+	path = work/Arcade-Game
+	url = https://github.com/EdwardCaf/Arcade-Game.git
