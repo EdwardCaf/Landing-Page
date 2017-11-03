@@ -13,9 +13,10 @@ hr {
    display: block;
    height: 1px;
    border: 0;
-   border-top: 2px solid #888;
-   margin: 1em 0;
+   border-top: 2px solid #777;
+   margin: 1em 15% 1em 15%;
    padding: 0;
+   width: 70%;
 }
 @media screen and (min-width: 768px) {
   body {
@@ -72,6 +73,7 @@ hr {
     width: 7em;
   }
 }
+
 .mynavbar {
   margin: 0;
   padding: 0;
@@ -93,11 +95,18 @@ hr {
 .section-content {
   text-align: center;
 }
+.about-content {
+  text-align: center;
+  background-color: #11a6fc;
+}
+.about-info {
+  padding-bottom: 1em;
+}
 .headerContainer{
   position: relative;
-  height: 100vh;
+  height: 83vh;
   color: #ddd;
-  background-image: url("../pics/NightSky-min.jpg");
+  background-image: url("../pics/NightSky-min.webp");
   background-size: cover;
   background-position: center;
 }
