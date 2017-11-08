@@ -38,6 +38,10 @@ hr {
     width: 4em;
     padding: 5px;
   }
+  .web-emblem {
+    width: 4em;
+    padding: 5px;
+  }
 }
 @media screen and (max-width: 767px) {
   body {
@@ -53,6 +57,9 @@ hr {
     font-size: .8em;
   }
   .project-icon {
+    width: 4em;
+  }
+  .web-emblem {
     width: 4em;
   }
 }
@@ -71,6 +78,14 @@ hr {
   }
   .project-icon {
     width: 7em;
+  }
+  .about-info {
+    padding: 0 2em 0 2em;
+    font-size: 14px;
+  }
+  .web-emblem {
+    width: 5em;
+    height: 5em;
   }
 }
 
@@ -94,21 +109,19 @@ hr {
 }
 .section-content {
   text-align: center;
-}
-.about-content {
-  text-align: center;
-  background-color: #11a6fc;
-}
-.about-info {
-  padding-bottom: 1em;
+  padding: 0 0 2em 0;
 }
 .headerContainer{
   position: relative;
-  height: 83vh;
+  height: 100vh;
   color: #ddd;
-  background-image: url("../pics/NightSky-min.webp");
+  background-color: #000080;
+  background: -webkit-linear-gradient(#0000d7, #000090);
+  background: -o-linear-gradient(#0000d7, #000090);
+  background: -moz-linear-gradient(#0000d7, #000090);
+  background: linear-gradient(#0000d7, #000090);
   background-size: cover;
-  background-position: center;
+  box-shadow: 0px 8px 25px black;
 }
 .headerName{
   position: absolute;
@@ -117,8 +130,20 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.about-content {
+  text-align: center;
+  padding: 20px 0 1em 0;
+  background-color: #ccc;
+}
+.about-info {
+  padding-bottom: 1em;
+}
+.web-emblem {
+  max-width: 100px;
+  max-height: 100px;
+}
 .project-header {
-  padding: 14px 0 14px 0;
+  padding: 1em 0 1em 0;
 }
 .box {
   background-color: #ddd;
