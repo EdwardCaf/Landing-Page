@@ -104,7 +104,7 @@ hr {
   font-size: 30px;
 }
 .navLink > a {
-    color: #ddd;
+    color: #eee;
 }
 .navLink > a:hover{
   text-decoration: none;
@@ -118,17 +118,17 @@ hr {
 .headerContainer{
   position: relative;
   height: 100vh;
-  color: #ddd;
   background-color: #000080;
-  background: -webkit-linear-gradient(#0000d7, #000080);
-  background: -o-linear-gradient(#0000d7, #000080);
-  background: -moz-linear-gradient(#0000d7, #000080);
-  background: linear-gradient(#0000d7, #000080);
+  background: -webkit-linear-gradient(#3020ff, #0000a0);
+  background: -o-linear-gradient(#3020ff, #0000a0);
+  background: -moz-linear-gradient(#3020ff, #0000a0);
+  background: linear-gradient(#3020ff, #0000a0);
   background-size: cover;
   box-shadow: 0px 8px 25px black;
 }
 .headerName{
   position: absolute;
+  color: #eee;
   width: 100%;
   top: 45%;
   left: 50%;
@@ -157,9 +157,6 @@ hr {
   padding-top: 6px;
   color: #ddd;
 }
-.tagLine:hover {
-  color: #eee;
-}
 .form-style {
   padding-top: 10px;
 }
@@ -181,4 +178,11 @@ hr {
 }
 .credits a {
   font-size: 10px;
+}
+#animate {
+    position: relative;
+    border; 1px solid green;
+    background: yellow;
+    width: 100px;
+    height: 100px;
 }
