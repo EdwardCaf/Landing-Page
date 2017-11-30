@@ -13,7 +13,7 @@
 
   <body>
 
-    <div class="headerContainer section-content animated slideInDown headerduration">
+    <header class="headerContainer section-content animated slideInDown headerduration">
       <nav class="col-sm-12 mynavbar">
           <li class="navLink animated fadeIn delay1"><a href="https://github.com/EdwardCaf"><i class="fa fa-github" aria-hidden="true"></i> Github</a></li>
           <li class="navLink animated fadeIn delay2"><a href="https://linkedin.com/in/edwardcaf"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
@@ -23,9 +23,10 @@
         <h1>Edward Cafarella</h1>
         <h4 class="tagLine">Front-End Developer</h4>
       </div>
-    </div>
 
-    <div class="container-fluid about-content">
+    </header>
+
+    <section class="container-fluid about-content">
       <div class="section-content">
         <h1 class="about-content animheader">About Me</h1>
         <hr class="animheader">
@@ -34,16 +35,16 @@
             <p class="about-info">I am a self-taught web developer with a passion for learning new
               skills and creating powerful web apps.</p>
           </div>
-          <div class="col-sm-3 col-sm-offset-1">
+          <aside class="col-sm-3 col-sm-offset-1">
             <img src="pics/HTML5.png" class="web-emblem" alt="HTML5">
             <img src="pics/CSS3.png" class="web-emblem" alt="CSS3">
             <img src="pics/JS.svg" class="web-emblem" alt="Javascript">
-          </div>
+          </aside>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="container-fluid about-content animcontent">
+    <section class="container-fluid about-content animcontent">
       <div class="section-content">
         <div class="row">
           <div class="col-sm-4 col-sm-offset-4">
@@ -51,45 +52,88 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="container-fluid about-content animcontent">
+    <section class="container-fluid about-content animcontent">
       <div class="section-content">
         <div class="row">
-          <div class="col-sm-3 col-sm-offset-2">
+          <aside class="col-sm-3 col-sm-offset-2">
             <img src="pics/git.svg" class="web-emblem" alt="Git">
             <img src="pics/jquery.png" class="web-emblem" alt="jQuery">
             <img src="pics/bootstrap.png" class="web-emblem" alt="Bootstrap">
-          </div>
+          </aside>
           <div class="col-sm-4 col-sm-offset-1">
             <p class="about-info">I strive to become a more efficient and eloquent programmer with each project I create.</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="container-fluid">
-      <div class="section-content">
+    <article class="container-fluid">
+      <div class="section-content row">
         <h1 class="project-header animheader">Projects</h1>
         <hr>
-        <div class="col-sm-3 box animcontent delay1b">
-          <img class="project-icon" src="pics/Document.svg" alt="Document icon">
-          <h2><a href="work/resume/index.html">Interactive Resume</a></h2>
-        </div>
-        <div class="col-sm-3 box animcontent delay2b">
-          <img class="project-icon" src="pics/Arcade.svg" alt="Web page icon">
-          <h2><a href="work/Arcade-Game/index.html">Arcade Game</a></h2>
-        </div>
-        <div class="col-sm-3 box animcontent delay3b">
-          <img class="project-icon" src="pics/bookmark.png" alt="Bookmark icon">
-          <h2><a href="work/Bookmark App/index.html">Bookmark App</a></h2>
-        </div>
-        <div class="col-sm-3 box animcontent delay4b">
-          <img class="project-icon" src="pics/canvas.png" alt="Painting Canvas icon">
-          <h2><a href="work/Canvas/index.html">Canvas</a></h2>
-        </div>
+
+        <section class="row mb3 box">
+          <div class="col-sm-offset-1 col-sm-6 box1 animcontent">
+            <a href="work/resume/index.html"><img class="project-pic box1" src="pics/1.png" alt="Picture of my interactive resume"></a>
+          </div>
+          <div class="col-sm-3 box2 animcontent">
+            <h2><a href="work/resume/index.html">Interactive Resume</a></h2>
+            <hr style="opacity:0.5; width: 50%; margin: auto;">
+            <h4 class="mbt1">Skills used:</h4>
+              <p>jQuery</p>
+              <p>JSON</p>
+              <p>Google Map API</p>
+          </div>
+        </section>
+
+        <section class="row mb3 box">
+          <div class="col-sm-offset-2 col-sm-3 box2 animcontent">
+            <h2><a href="littlenook/index.html">Cafe Website</a></h2>
+            <hr style="opacity:0.5; width: 50%; margin: auto;">
+            <h4 class="mbt1">Skills used:</h4>
+              <p>Bootstrap</p>
+              <p>Responsive Design</p>
+          </div>
+          <div class="col-sm-3 animcontent box1">
+            <a href="littlenook/index.html"><img class="project-pic" src="pics/2.png" alt="Cafe home screen picture"></a>
+          </div>
+        </section>
+
+        <section class="row mb3 box">
+          <div class="col-sm-offset-1 col-sm-6 box1 animcontent">
+            <a href="work/Bookmark App/index.html"><img class="project-pic" src="pics/3.png" alt="Bookmark App picture"></a>
+          </div>
+          <div class="col-sm-3 animcontent box2">
+            <h2><a href="work/Bookmark App/index.html">Bookmark App</a></h2>
+            <hr style="opacity:0.5; width: 50%; margin: auto;">
+            <h4 class="mbt1">Skills used:</h4>
+              <p>Javascript</p>
+              <p>Use of local storage</p>
+          </div>
+        </section>
+
+        <section class="row mb3 box">
+          <div class="col-sm-offset-2 col-sm-3 animcontent box2">
+            <h2><a href="work/Arcade-Game/index.html">Arcade Game</a></h2>
+            <hr style="opacity:0.5; width: 50%; margin: auto;">
+            <h4 class="mbt1">Skills used:</h4>
+              <p>Javascript</p>
+              <p>Canvas</p>
+              <p>Object-oriented-programming</p>
+          </div>
+          <div class="col-sm-3 animcontent box1">
+            <a href="work/Arcade-Game/index.html"><img class="project-pic" src="pics/4.png" alt="Arcade game picture"></a>
+          </div>
+        </section>
+
       </div>
-    </div>
+    </article>
+
+  <footer class="container text-center">
+    <img class="logo animated fadeInUp delay1" src="pics/EC.svg" alt="My logo">
+  </footer>
 
 <!--  CONTACT MODAL -->
 
@@ -126,11 +170,6 @@
   </body>
 
   <footer>
-    <div class="credits-container">
-      <div class="credits">Icons made by <a href="http://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-      <div class="credits">Icons made by <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-      <div class="credits">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-    </div>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/main.js" type="text/javascript"></script>
