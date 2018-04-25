@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", serif;
 }
 html,
 body {
@@ -38,6 +38,10 @@ hr {
   h4 {
     font-size: 0.8em;
   }
+  .headerContainer {
+    height: 80vh;
+    background: url("../pics/bg.jpeg");
+  }
   .navlink {
     padding: 4vh;
   }
@@ -49,9 +53,12 @@ hr {
     height: 5em;
     padding: 5px;
   }
-  .web-emblem {
+  /* .web-emblem {
     width: 4em;
     padding: 5px;
+  } */
+  .head-shot {
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -67,6 +74,10 @@ hr {
   h4 {
     font-size: 0.8em;
   }
+  .headerContainer {
+    height: 60vh;
+    background-image: url("../pics/bg-mobile.jpeg");
+  }
   .logo {
     width: 6em;
     height: 6em;
@@ -74,13 +85,16 @@ hr {
   .project-icon {
     height: 4em;
   }
-  .web-emblem {
+  /* .web-emblem {
     width: 4em;
+  } */
+  .head-shot {
+    width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
   body {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   h1 {
     font-size: 3em;
@@ -89,10 +103,15 @@ hr {
     font-size: 1.8em;
   }
   h4 {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
   li > a {
-    font-size: 18px;
+    font-size: 13px;
+    padding: 2px;
+  }
+  .headerContainer {
+    height: 60vh;
+    background-image: url("../pics/bg-mobile.jpeg");
   }
   .logo {
     width: 6em;
@@ -105,9 +124,12 @@ hr {
     padding: 0 2em 0 2em;
     font-size: 14px;
   }
-  .web-emblem {
+  /* .web-emblem {
     width: 5em;
     height: 5em;
+  } */
+  .head-shot {
+    width: 55%;
   }
   /* Flex */
   .box {
@@ -147,12 +169,7 @@ hr {
 }
 .headerContainer {
   position: relative;
-  height: 75vh;
-  background-color: #4cbfeb;
-  background: -webkit-linear-gradient(#00a4e3, #4cbfeb);
-  background: -o-linear-gradient(#00a4e3, #4cbfeb);
-  background: -moz-linear-gradient(#00a4e3, #4cbfeb);
-  background: linear-gradient(#00a4e3, #4cbfeb);
+  background-size: 100% 100%;
   box-shadow: 0px 8px 25px black;
 }
 .headerName {
@@ -173,9 +190,14 @@ hr {
   padding-bottom: 1em;
   padding-top: 1em;
 }
-.web-emblem {
+/* .web-emblem {
   max-width: 4em;
   max-height: 4em;
+} */
+.head-shot {
+  max-width: 400px;
+  border-radius: 50%;
+  box-shadow: 0px 8px 15px #333;
 }
 .project-header {
   padding: 1em 0 1em 0;
@@ -210,34 +232,3 @@ hr {
 }
 
 /* Animations */
-
-.headerduration {
-  animation-duration: 1.3s;
-}
-.delay1 {
-  animation-delay: 0.7s;
-}
-.delay2 {
-  animation-delay: 1s;
-}
-.delay3 {
-  animation-delay: 1.3s;
-}
-.delay1b {
-  animation-delay: 0.4s;
-}
-.delay2b {
-  animation-delay: 0.6s;
-}
-.delay3b {
-  animation-delay: 0.8s;
-}
-.delay4b {
-  animation-delay: 1s;
-}
-.animheader {
-  opacity: 0;
-}
-.animcontent {
-  opacity: 0;
-}
